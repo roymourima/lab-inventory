@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect, useCallback } from "react";
 
 export const AppContext = createContext();
-export const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
+export const API_URL = process.env.REACT_APP_API_URL || "/api";
 
 function AppProvider({ children }) {
   // 🔥 USER (AUTHENTICATION)

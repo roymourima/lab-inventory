@@ -1,0 +1,12 @@
+{
+  "experimentalServices": {
+    "frontend": {
+      "entrypoint": "inventory-frontend",
+      "routePrefix": "/"
+    },
+    "backend": {
+      "entrypoint": "inventory-backend",
+      "routePrefix": "/api"
+    }
+  }
+}
