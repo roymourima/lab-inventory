@@ -1,4 +1,4 @@
-# Build Version: 1.0.1
+# Build Version: 1.0.2
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session

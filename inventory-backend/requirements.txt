@@ -8,3 +8,4 @@ passlib[bcrypt]
 psycopg2-binary
 aiosmtplib
 python-dotenv
+resend
